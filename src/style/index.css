@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* line 2, /stdin */ * { padding: 0; margin: 0; box-sizing: border-box; }
+
+/* line 7, /stdin */ :root { --color1: rgba(255, 255, 255, 0.581); --color1-2: #f0ebd7; --color2: #c2dedc; --color3: #cdc2ae; --color4: #116a7b; --color5: #3f454e; --color5-1: hsla(216, 10.6%, 27.6%, 0.2); --color6: #f2f4f8; --color7: rgb(130, 241, 252); --color8: rgb(252, 130, 216); --bd-r: 10px; --gradient: linear-gradient(150deg, #ecedee, transparent 30%),
+    linear-gradient(330deg, rgb(210, 206, 242), transparent 30%),
+    linear-gradient(225deg, #fff0be, #fbdce7, #e2fae1, powderblue); }
+
+/* line 24, /stdin */ html { font-family: "Poppins", sans-serif; }
+
+/* line 26, /stdin */ html body { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; background: var(--gradient); }
+
+/* line 33, /stdin */ html body .box-login { width: 300px; height: 400px; padding: 1em; display: flex; flex-direction: column; justify-content: center; background: var(--color1); align-items: center; box-shadow: 5px 5px 20px var(--color5-1); color: var(--color5); border-radius: var(--bd-r); }
+
+/* line 45, /stdin */ html body .box-login form { display: flex; flex-direction: column; gap: 4px; }
+
+/* line 49, /stdin */ html body .box-login form input { background: rgba(0, 0, 0, 0); border: 2px solid var(--color4); border-radius: var(--bd-r); padding: 8px 0 8px 5px; color: var(--color4); font-weight: bold; }
+
+/* line 56, /stdin */ html body .box-login form input:focus { outline: 2px solid var(--color7); }
+
+/* line 60, /stdin */ html body .box-login form .show { font-size: 13px; color: var(--color5); display: flex; align-items: center; column-gap: 5px; }
+
+/* line 67, /stdin */ html body .box-login form button { background: var(--color4); padding: 8px; border: none; color: var(--color6); border-radius: var(--bd-r); }
+
+/* line 75, /stdin */ html body .box-login .other { margin-top: 0.5em; display: flex; width: 100%; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+
+/* line 83, /stdin */ html body .box-login .other span { font-size: 14px; color: var(--color5); width: 80%; display: flex; justify-content: center; background: linear-gradient(#000 0 0) left, linear-gradient(#000 0 0) right; background-size: 40% 1px; background-repeat: no-repeat; }
+
+/* line 93, /stdin */ html body .box-login .other span p { display: flex; }
+
+/* line 95, /stdin */ html body .box-login .other span p::before { content: ""; display: flex; border-bottom: 2px solid #ffff; }
+
+/* line 102, /stdin */ html body .box-login .other a { border: none; background: none; color: var(--color4); text-decoration: none; font-size: 13px; }
+
+/* line 108, /stdin */ html body .box-login .other a:hover { color: var(--color8); }
+
+/* line 113, /stdin */ html body .box-login:hover { box-shadow: 0px 0px 0px var(--color5-1); }
